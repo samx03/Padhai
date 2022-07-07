@@ -1,3 +1,4 @@
+import Courses from "./components/Courses";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Intro />
+      <Courses />
     </>
   );
 }
