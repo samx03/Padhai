@@ -37,7 +37,7 @@ function Navbar() {
                     </Box>
 
                     <Box pl='15%'>
-                        <Link style={{ textDecoration: "none" }} href='#'>Courses
+                        <Link style={{ textDecoration: "none" }} href='#courses'>Courses
 
                             <Box
                                 w='30%'
@@ -50,7 +50,7 @@ function Navbar() {
                     </Box>
 
                     <Box pl='15%'>
-                        <Link style={{ textDecoration: "none" }} href='#'>Review
+                        <Link style={{ textDecoration: "none" }} href='#reviews'>Review
 
                             <Box
                                 w='30%'
@@ -63,7 +63,7 @@ function Navbar() {
                     </Box>
 
                     <Box pl='15%'>
-                        <Link style={{ textDecoration: "none" }} href='#'>Contact
+                        <Link style={{ textDecoration: "none" }} href='#contact'>Contact
 
                             <Box
                                 w='30%'

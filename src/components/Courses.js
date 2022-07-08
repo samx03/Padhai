@@ -5,7 +5,7 @@ import CourseCard from './CourseCard'
 function Courses(props) {
   return (
     <>
-      <Box w='100%' h='auto' pb='20px'>
+      <Box w='100%' h='auto' pb='20px' id='courses'>
         <Heading mt='50px' textAlign='center'> <span style={{ 'color': '#3071E7', 'fontWeight': '700' }} >Our</span>  Courses</Heading>
         <Grid templateColumns= {['auto','auto auto','auto auto','auto auto auto']} gap={10} mt='50px' placeItems='center'>
           <CourseCard category='Programming' courseName='Python' desc='Learn Python programming language, used in competetive programming.' duration='23h' price='999' teacher='Sameer Bakshi' />

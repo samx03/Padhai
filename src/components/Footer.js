@@ -9,7 +9,7 @@ import { Box, Flex, Text, Image, Grid } from '@chakra-ui/react'
 function Footer() {
     return (
         <>
-            <Flex w='100%'
+            <Flex w='100%' id='contact'
                 h= {['auto','30vh','30vh','30vh']} 
                 mt='5%'
                 pos='relative'
