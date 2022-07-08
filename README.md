@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+<hr>
 # Developers
 [Ebrahim Ghantiwala](https://github.com/EbrG786)
 
