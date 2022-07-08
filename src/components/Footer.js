@@ -15,13 +15,13 @@ function Footer() {
                 pos='relative'
                 bgColor='#EAF0FC'
                 overflow='hidden'>
-                <Flex w='70%' mx='auto' alignItems='center' flexDirection={['column','row','row','row']}>
+                <Flex w='70%' mx='auto' alignItems='center' flexDirection={['column','row','row','row']} py={['5%',0,0,0]}>
                     <Box
                         w='400px'
                         h='100px'
                         float='left'
                         ml='3%'>
-                        <Image boxSize='100%' zIndex='1' src={logo} display={['none', 'block', 'block', 'block']} fallbackSrc='https://via.placeholder.com/150' />
+                        <Image boxSize='100%' zIndex='1' src={logo} fallbackSrc='https://via.placeholder.com/150' />
                     </Box>
                     <Grid templateColumns={['auto', 'auto', 'auto', 'auto auto ']} placeItems='center' gap={3}>
                         <Box>
